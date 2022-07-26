@@ -42,7 +42,7 @@ sudo apt install zsh
 
 
 echo copying default .zshrc to home dir
-curl  -fsSL https://raw.githubusercontent.com/AbdouTlili/config-scripts/master/zshrc > ~/zshrc 
+curl  -fsSL https://raw.githubusercontent.com/AbdouTlili/config-scripts/master/zshrc > ~/.zshrc 
 
 echo setting zsh as default shell
 chsh -s $(which zsh) 
