@@ -36,10 +36,11 @@ else
 fi
 
 
-echo setting up zshconfig
+echo installing zsh
 sudo apt install zsh
 
-
+echo installing omz
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo copying default .zshrc to home dir
 curl  -fsSL https://raw.githubusercontent.com/AbdouTlili/config-scripts/master/zshrc > ~/.zshrc 
